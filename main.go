@@ -162,7 +162,7 @@ func main() {
 				"(valid choices: patched, compatible, flat)")),
 		Theme: flag.String(
 			"theme",
-			"default",
+			"solarized-dark16",
 			commentsWithDefaults("Set this to the theme you want to use",
 				"(valid choices: default, low-contrast)")),
 		Shell: flag.String(
